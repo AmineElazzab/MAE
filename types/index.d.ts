@@ -229,6 +229,14 @@ declare interface RecentTransactionsProps {
   page: number;
 }
 
+declare interface CustomInputProps {
+  form: any;
+  name: string;
+  label: string;
+  type: string;
+  placeholder: string;
+}
+
 declare interface TransactionHistoryTableProps {
   transactions: Transaction[];
   page: number;
